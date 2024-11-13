@@ -9,7 +9,7 @@ public class Cheers {
                 while (i>0){
                         char letter = userWord.charAt(userWord.length()-i);
                         if (char_an.indexOf(letter) != -1) {System.out.println("Give me an "+letter+": "+letter+"!");}
-                        else {System.out.println("Give me a "+letter+": "+letter+"!");}
+                        else {System.out.println("Give me a  "+letter+": "+letter+"!");}
                                 
                         i--;
                 }
