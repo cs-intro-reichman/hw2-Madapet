@@ -13,7 +13,8 @@ public class CalcPi {
 				userNum --;
 			}
 		
-		System.out.println("Api, approximated:	" +sum*4);
+		System.out.println("Api, approximated:     " +sum*4);
+	
 		
 	}
 }
