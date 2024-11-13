@@ -2,19 +2,16 @@
 public class CalcPi {
 	public static void main(String [] args) { 
 	    int userNum = Integer.parseInt(args[0]);
-		double computNum = 3.0;
-		double printedNum = 1;
-		double pi = Math.PI;
-		System.out.println(Math.PI);
+		System.out.println("Api according to Java: 3.141592653589793");
 		double sum=0;
 		double sign=1.0;
-		for(int i =1;i<=userNum;i+=2)
+		for(int i =1;i<=userNum+1;i+=2)
 			{
 				sum +=sign/i;
 				sign *=-1;
 			}
 		
-		System.out.println(sum*4);
-
+		System.out.println("Api, approximated:	 "+sum*4);
+		
 	}
 }
