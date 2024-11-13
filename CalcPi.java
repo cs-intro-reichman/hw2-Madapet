@@ -2,7 +2,7 @@
 public class CalcPi {
 	public static void main(String [] args) { 
 	    int userNum = Integer.parseInt(args[0]);
-		System.out.println("Api according to Java: 3.141592653589793");
+		System.out.println("pi according to Java: 3.141592653589793");
 		double sum=0;
 		double sign=1.0;
 		for(int i =1;userNum > 0;i+=2)
@@ -13,7 +13,7 @@ public class CalcPi {
 				userNum --;
 			}
 		
-		System.out.println("Api, approximated:     " +sum*4);
+		System.out.println("pi, approximated:     " +sum*4);
 	
 		
 	}
