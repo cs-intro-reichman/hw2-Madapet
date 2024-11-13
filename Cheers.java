@@ -13,7 +13,7 @@ public class Cheers {
                                 
                         i--;
                 }
-                System.out.println("What does at spell?");
+                System.out.println("What does that spell?");
                 while(num>0){
                         System.out.println(userWord+"!!!");
                         num--;
