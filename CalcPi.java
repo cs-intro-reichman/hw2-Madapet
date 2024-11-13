@@ -11,7 +11,7 @@ public class CalcPi {
 				sign *=-1;
 			}
 		
-		System.out.println("Api, approximated:	 "+sum*4);
+		System.out.println("Api, approximated: " +sum*4);
 		
 	}
 }
