@@ -2,6 +2,7 @@
 public class Cheers {
         public static void main(String[] args) {
                 String userWord = args[0];
+                userWord = userWord.toUpperCase();
                 int num = Integer.parseInt(args[1]);
                 int i = userWord.length();
                 while (i>0){
